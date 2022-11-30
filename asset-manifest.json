@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/suitemates/static/css/main.073c9b0a.css",
+    "main.js": "/suitemates/static/js/main.85f6cf2d.js",
+    "static/js/787.55dbeaa3.chunk.js": "/suitemates/static/js/787.55dbeaa3.chunk.js",
+    "static/media/logo.svg": "/suitemates/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/suitemates/index.html",
+    "main.073c9b0a.css.map": "/suitemates/static/css/main.073c9b0a.css.map",
+    "main.85f6cf2d.js.map": "/suitemates/static/js/main.85f6cf2d.js.map",
+    "787.55dbeaa3.chunk.js.map": "/suitemates/static/js/787.55dbeaa3.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.85f6cf2d.js"
+  ]
+}
