@@ -4,7 +4,11 @@ import './assets/css/Login.css';
 //import App from './App';
 import reportWebVitals from './reportWebVitals';
 import Login from "./pages/Login";
-import Login2 from "./pages/Login2";
+import Home from "./pages/Home";
+import Calendar from "./pages/Calendar";
+import Chores from "./pages/Chores";
+import Rent from "./pages/Rent";
+import Suite from "./pages/Suite";
 
 
 export default function App() {
@@ -13,7 +17,11 @@ export default function App() {
       <Routes>
           <Route index element={<Login />} />
           <Route path="suitemates" element={<Login />} />
-          <Route path="login2" element={<Login2 />} />
+          <Route path="home" element={<Home />} />
+          <Route path="calendar" element={<Calendar />} />
+          <Route path="chores" element={<Chores />} />
+          <Route path="rent" element={<Rent />} />
+          <Route path="suite" element={<Suite />} />
       </Routes>
     </BrowserRouter>
   );
