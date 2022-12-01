@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/suitemates/static/css/main.2505662e.css",
-    "main.js": "/suitemates/static/js/main.881ff75a.js",
+    "main.js": "/suitemates/static/js/main.f800f922.js",
     "static/js/787.55dbeaa3.chunk.js": "/suitemates/static/js/787.55dbeaa3.chunk.js",
     "static/media/coverimg.png": "/suitemates/static/media/coverimg.5dc043b2f81261f99f78.png",
     "index.html": "/suitemates/index.html",
     "main.2505662e.css.map": "/suitemates/static/css/main.2505662e.css.map",
-    "main.881ff75a.js.map": "/suitemates/static/js/main.881ff75a.js.map",
+    "main.f800f922.js.map": "/suitemates/static/js/main.f800f922.js.map",
     "787.55dbeaa3.chunk.js.map": "/suitemates/static/js/787.55dbeaa3.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.2505662e.css",
-    "static/js/main.881ff75a.js"
+    "static/js/main.f800f922.js"
   ]
 }
