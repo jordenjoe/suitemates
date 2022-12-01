@@ -2,6 +2,8 @@ import { Link } from "react-router-dom";
 import '../assets/css/Login.css';
 import coverimg from '../assets/images/coverimg.png';
 import coverdivider from '../assets/images/divider.png';
+import statusbar from '../assets/images/statusbar.png';
+
 
 
 const Login = () => {
@@ -16,7 +18,7 @@ const Login = () => {
            <button className='Turquoise-Button'>
             <Link to="/home">
                 <div className='Turquoise-Button-Text'>Get started</div>
-                </Link>
+            </Link>
             </button>
      </div>
     );
