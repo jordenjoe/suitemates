@@ -50,6 +50,11 @@ const HomeRequestsPane = () => {
         <button onClick={onClick4} className="HomeRequests-Button deny" ><img alt='close icon' src={close}/></button> 
       </div>
       : null }
+      { !showResults && !showResults2 && !showResults3 && !showResults4 ?
+      <div className="Events-Empty"> 
+        All requests approved!
+      </div> 
+      : null}
     </div>
     );
   };
