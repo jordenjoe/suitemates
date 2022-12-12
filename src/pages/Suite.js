@@ -9,7 +9,8 @@ import statusbar from '../assets/images/statusbar.png';
 const Home = () => {
     return (
       <div className="App">
-        <img alt='status bar for phone' src={statusbar}/>
+        <img alt='status bar for phone' src={statusbar}/> 
+        <h1>Example update</h1>
         <h1>Suite stuff</h1>
        <Navbar />
       </div>

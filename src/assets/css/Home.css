@@ -1,3 +1,68 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&display=swap');
 
+.Title{
+    color:#48C3C0;
+}
+.HomeRequests-Image{
+    height: 75px;
+}
 
+.HomeRequests{
+    width: 205.62px;
+    height: 247.8px;
+    margin: 10px;
+}
+
+.HomeRequests-Button{
+
+    background-color: #f3f3f3; /* Green */
+    border: none;
+    color: white;
+    height: 30px;
+    /*text-align: center;*/
+    width: 167px;
+    border-radius: 15px;
+    font-style: italic;
+    margin: 5px;
+  }
+
+  .accept:active{
+
+    background-color: rgba(91, 195, 193, 0.492); /* Green */
+  }
+
+
+  .deny:active{
+
+    background-color: #c489a8d4; /* Green */
+  }
+
+.HomeRequests-Icon{
+    position: relative; 
+    margin-right: 5px;
+    top: 8px;
+    width: 30px;
+}
+
+div.scrollmenu {
+    overflow: auto;
+    white-space: nowrap;
+    height: 250px;
+    color: #7D848D;
+  }
+  
+div.scrollmenu div {
+    width: 180px;
+    display: inline-block;
+    text-align: center;
+    padding: 14px;
+    text-decoration: none;
+}
+
+div.scrollmenu div p {
+    font-size: 14px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+
+}

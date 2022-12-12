@@ -1,10 +1,11 @@
 .Navbar{
-
+    position: relative; 
+    bottom: 0px;
     background-color: rgb(253, 253, 253);
     border-radius: 20px 20px 20px 20px;
     height: 70px;
     box-shadow: 0 2px 5px 1px rgba(195, 195, 195, 0.2);
     padding-top:15px;
     border-radius: 100%/30px 30px 0px 1px;
-    bottom: 0px;
+
 }
