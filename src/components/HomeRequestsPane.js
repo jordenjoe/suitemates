@@ -52,7 +52,7 @@ const HomeRequestsPane = () => {
       : null }
       { !showResults && !showResults2 && !showResults3 && !showResults4 ?
       <div className="Events-Empty"> 
-        All requests approved!
+        No requests at this time!
       </div> 
       : null}
     </div>
