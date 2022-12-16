@@ -13,6 +13,8 @@ import Rent from "./pages/Rent";
 import Suite from "./pages/Suite";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
+import JoinSuite from "./pages/JoinSuite";
+
 
 
 export default function App() {
@@ -24,6 +26,7 @@ export default function App() {
           <Route path="home" element={<Home />} />
           <Route path="signup" element={<Signup />} />
           <Route path="signin" element={<Signin />} />
+          <Route path="joinsuite" element={<JoinSuite />} />
           <Route path="calendar" element={<Calendar />} />
           <Route path="calendarmonthly" element={<CalendarMonthly />} />
           <Route path="calendarwithrequest" element={<CalendarWithRequest />} />
