@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suitemates/static/css/main.d3fe54c5.css",
-    "main.js": "/suitemates/static/js/main.c66d5c40.js",
+    "main.css": "/suitemates/static/css/main.21435e3c.css",
+    "main.js": "/suitemates/static/js/main.f6fbec0d.js",
     "static/js/787.55dbeaa3.chunk.js": "/suitemates/static/js/787.55dbeaa3.chunk.js",
     "static/media/shopping.jpg": "/suitemates/static/media/shopping.04f9baae7885d98b5bb3.jpg",
     "static/media/coverimg.png": "/suitemates/static/media/coverimg.5dc043b2f81261f99f78.png",
@@ -13,12 +13,12 @@
     "static/media/quiethour.png": "/suitemates/static/media/quiethour.48c3602d7fe36c771b82.png",
     "static/media/party.png": "/suitemates/static/media/party.802ed651ea3a62a94311.png",
     "index.html": "/suitemates/index.html",
-    "main.d3fe54c5.css.map": "/suitemates/static/css/main.d3fe54c5.css.map",
-    "main.c66d5c40.js.map": "/suitemates/static/js/main.c66d5c40.js.map",
+    "main.21435e3c.css.map": "/suitemates/static/css/main.21435e3c.css.map",
+    "main.f6fbec0d.js.map": "/suitemates/static/js/main.f6fbec0d.js.map",
     "787.55dbeaa3.chunk.js.map": "/suitemates/static/js/787.55dbeaa3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d3fe54c5.css",
-    "static/js/main.c66d5c40.js"
+    "static/css/main.21435e3c.css",
+    "static/js/main.f6fbec0d.js"
   ]
 }
