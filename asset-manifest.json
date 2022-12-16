@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suitemates/static/css/main.13940771.css",
-    "main.js": "/suitemates/static/js/main.2b28fdc3.js",
+    "main.css": "/suitemates/static/css/main.d3fe54c5.css",
+    "main.js": "/suitemates/static/js/main.c66d5c40.js",
     "static/js/787.55dbeaa3.chunk.js": "/suitemates/static/js/787.55dbeaa3.chunk.js",
     "static/media/shopping.jpg": "/suitemates/static/media/shopping.04f9baae7885d98b5bb3.jpg",
     "static/media/coverimg.png": "/suitemates/static/media/coverimg.5dc043b2f81261f99f78.png",
@@ -9,15 +9,16 @@
     "static/media/dayview.png": "/suitemates/static/media/dayview.3f368491e8927f85beb8.png",
     "static/media/requestview.png": "/suitemates/static/media/requestview.d07862be5ef9547f289c.png",
     "static/media/weekview.png": "/suitemates/static/media/weekview.2b613749d03d8da05ed3.png",
+    "static/media/profileicon.png": "/suitemates/static/media/profileicon.7f94efe7bdbb156313b0.png",
     "static/media/quiethour.png": "/suitemates/static/media/quiethour.48c3602d7fe36c771b82.png",
     "static/media/party.png": "/suitemates/static/media/party.802ed651ea3a62a94311.png",
     "index.html": "/suitemates/index.html",
-    "main.13940771.css.map": "/suitemates/static/css/main.13940771.css.map",
-    "main.2b28fdc3.js.map": "/suitemates/static/js/main.2b28fdc3.js.map",
+    "main.d3fe54c5.css.map": "/suitemates/static/css/main.d3fe54c5.css.map",
+    "main.c66d5c40.js.map": "/suitemates/static/js/main.c66d5c40.js.map",
     "787.55dbeaa3.chunk.js.map": "/suitemates/static/js/787.55dbeaa3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.13940771.css",
-    "static/js/main.2b28fdc3.js"
+    "static/css/main.d3fe54c5.css",
+    "static/js/main.c66d5c40.js"
   ]
 }
