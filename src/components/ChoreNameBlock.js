@@ -10,3 +10,5 @@ const Assigning = () =>{
 		</div>
 	);
 };
+
+export default ChoreNameBlock;
