@@ -4,7 +4,7 @@ import ChoreName from '../components/ChoreName';
 
 const Assigning = () =>{
 	return (
-		<div className="Chore-NameBlock">
+		<div className="ChoreNameBlock">
 			<div className="Header">Chore Name</div>
 			<ChoreName/>
 		</div>
