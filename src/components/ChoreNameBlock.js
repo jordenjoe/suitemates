@@ -1,12 +1,12 @@
 import '../assets/css/Chores.css';
-import ChoreName from '../components/ChoreName';
+import ChoreNameInput from '../components/ChoreNameInput';
 
 
 const Assigning = () =>{
 	return (
 		<div className="ChoreNameBlock">
 			<div className="Header">Chore Name</div>
-			<ChoreName/>
+			<ChoreNameInput/>
 		</div>
 	);
 };
