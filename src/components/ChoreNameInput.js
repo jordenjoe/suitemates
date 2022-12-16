@@ -1,9 +1,9 @@
 import './App.css'
 
-function ChoreName() {
+function ChoreNameInput() {
 	
 	return (
-		<form className = "ChoreName">
+		<form className = "ChoreNameInput">
 
 			<input className="chore-name-input" type="text" id="name" placeholder="Enter Chore"></input>
 
@@ -11,4 +11,4 @@ function ChoreName() {
 	);
 }
 
-export default ChoreName;
+export default ChoreNameInput;
