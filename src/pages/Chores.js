@@ -10,7 +10,7 @@ const Home = () => {
     return (
       <div className="App">
         <img alt='status bar for phone' src={statusbar}/>
-        <h1>Chores stuff</h1>
+        <h1>Chores</h1>
        <Navbar />
       </div>
     );
