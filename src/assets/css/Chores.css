@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&display=swap');
+
+body {
+    background-color: rgb(212, 222, 232);
+}
+
+.App {
+    text-align: center;
+    background-color: #fbfbfb;
+    width: 390px;
+    height: 850px;
+    margin: 10px;
+    border-radius: 20px;
+    box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.2);
+    font-family: 'Asap', sans-serif;
+}
+
+.App > h1 {
+    text-align: center;
+    font-size: xx-large;
+    margin-left:10%;
+    margin-right:10%;
+}
+
+.Body {
+    margin:10%;
+}
+
+.App > p{ /*Subheaders*/
+    font-size: large;
+    text-align: center;
+    color: #7D848D;
+    margin-left:50px;
+    margin-right:50px;
+}
+
+.Divider {
+    margin-left:45%;
+    width:40px;
+}
+
+.Turquoise-Button {
+    background-color: #48C3C0;
+    border:none;
+    color: white;
+    padding: 15px 32px;
+    text-align:center;
+    display:inline-block;
+    font-size:16px;
+    width:340px;
+    border-radius:15px;
+    font-style:italic;
+    margin-top:60px;
+}
+
+.Turquoise-Button-Text{
+    text-decoration:none!important;
+    text-decoration-color:white;
+    color:white;
+}
+
+a:visited { text-decoration: none; color:#48C3C0; }
+a { text-decoration: none; color:#48C3C0; }
+
+@media (prefers-reduced-motion: no-preference) {
+    .App-logo{
+        animation: App-logo-spin infinite 20s linear;
+    }
+}
+
+@keyframes App-logo-spin{
+    from {
+        transform:rotate(0deg);
+    }
+    to{
+        transform:rotate(360deg);
+    }
+}
