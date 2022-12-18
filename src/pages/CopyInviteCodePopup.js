@@ -2,7 +2,7 @@ import React from 'react';
 // styling
 import '../assets/css/Login.css';
 // images
-import createsuite from '../assets/images/login/createsuite.png';
+import invitecodecopied from '../assets/images/login/invitecodecopied.png';
 import { Link } from "react-router-dom";
 
 
@@ -13,14 +13,8 @@ const PopUp = props => {
 
     return (
         <div className="PopUp">
-            
             <div className="PopUp-Content">
-                <img onClick={()=> setPopUp(false)} src={createsuite}/>
-                <p><input className='Popup-Input' placeholder="Suite Name" type="text"></input>
-                <Link to="/newsuite">
-                    <button className="Popup-Plus">+</button>
-                </Link>
-                </p>
+                <img onClick={()=> setPopUp(false)} src={invitecodecopied}/>
             </div>
         </div>
     );
