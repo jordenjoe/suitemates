@@ -13,7 +13,7 @@ const PopUp = props => {
 
     return (
         <div className="PopUp">
-            <div className="PopUp-Content">
+            <div className="PopUp-Content-CopyInvite">
                 <img onClick={()=> setPopUp(false)} src={invitecodecopied}/>
             </div>
         </div>

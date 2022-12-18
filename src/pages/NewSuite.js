@@ -5,7 +5,7 @@ import Suitemates from "../components/Suitemates";
 import statusbar from '../assets/images/statusbar.png';
 import invitecode from '../assets/images/login/invitecode.png';
 import buildingicon from '../assets/images/login/buildingicon.png';
-import PopUp from './CopyInviteCodePopup';
+import PopUp from '../components/CopyInviteCodePopup';
 
 
 

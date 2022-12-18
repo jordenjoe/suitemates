@@ -3,9 +3,9 @@ import '../assets/css/Login.css';
 import Suitemates from "../components/Suitemates";
 import statusbar from '../assets/images/statusbar.png';
 import eye from '../assets/images/login/eye.png';
-import buildingicon from '../assets/images/login/buildingicon.png';
+import buildingicon from '../assets/images/login/backandbuilding.png';
 import React, {useState} from 'react';
-import PopUp from './CreateSuitePopup';
+import PopUp from '../components/CreateSuitePopup';
 
 
 const JoinSuite = () => {
@@ -15,7 +15,11 @@ const JoinSuite = () => {
     return (
       <div className={"App" + duringPopUp}>
       <img className={duringPopUp} alt='status bar for phone' src={statusbar}/>
-      <img alt='status bar for phone' src={buildingicon}/>
+      <Link to="/signup">
+      <div className="Login-Building-Icon">
+      <img src={buildingicon}/>
+      </div>
+      </Link>
       <Suitemates />
       <p><span className='Small-Gray-Text'>You are not currently in a suite.</span></p>
       <div className="Login-Body">
