@@ -14,10 +14,13 @@ import Suite from "./pages/Suite";
 import Signin from "./pages/Signin";
 import Signup from "./pages/Signup";
 import JoinSuite from "./pages/JoinSuite";
+import ChoresComplete from "./pages/ChoresComplete";
+import AssignChore from "./pages/AssignChore";
+import NewChoreAssigned from "./pages/NewChoreAssigned";
+import ReminderSuccess from "./pages/ReminderSuccess";
+import NewReminderSuccess from "./pages/NewReminderSuccess";
 import NewSuite from "./pages/NewSuite";
 import ForgotPassword from "./pages/ForgotPassword";
-
-
 
 export default function App() {
   return (
@@ -37,6 +40,11 @@ export default function App() {
           <Route path="chores" element={<Chores />} />
           <Route path="rent" element={<Rent />} />
           <Route path="suite" element={<Suite />} />
+          <Route path="assignchore" element={<AssignChore />} />
+          <Route path="chorescomplete" element={<ChoresComplete />} />
+          <Route path="newchoreassigned" element={<NewChoreAssigned />} />
+          <Route path="remindersuccess" element={<ReminderSuccess />} />
+          <Route path="newremindersuccess" element={<NewReminderSuccess />} />
       </Routes>
     </BrowserRouter>
   );
