@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
 import '../assets/css/Login.css';
 import '../assets/css/Home.css';
-import '../assets/css/Chores.css';'
+import '../assets/css/Chores.css';
 import Navbar from "../components/NavbarChoresBlue";
 import statusbar from '../assets/images/statusbar.png';
 
