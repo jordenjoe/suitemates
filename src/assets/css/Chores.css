@@ -53,6 +53,22 @@ body {
     margin-top:50px;
 }
 
+.Gray-Input{
+    background-color:#f0f0f0;
+    border:none;
+    color:#282c3b;
+    padding: 23px 32px;
+    text-align:left;
+    display:inline-block;
+    font-size:16px;
+    width:270px;
+    border-radius:15px;
+    font-style:italic;
+    margin:10px;
+}
+
+
+
 .Turquoise-Button-Text{
     text-decoration:none!important;
     text-decoration-color:white;
