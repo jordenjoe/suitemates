@@ -37,7 +37,7 @@ body {
 
 .Add_Icon{
     margin-left:10%;
-    padding-left:50px;
+    padding-left:74px;
     padding-right:10%;
 }
 
@@ -48,6 +48,26 @@ body {
     text-align:center;
 }
 
+.Single-Icon-Header{
+    display:flex;
+    flex-direction:row;
+    align-items:center;
+    margin-left:10%;
+    margin-right:5%;
+}
+
+.Single-Icon-Header-Font{
+    font-size:x-large;
+    font-weight:400;
+    color: #48C3C0;
+    display:inline-block;
+    text-align:left;
+    padding-left:6px;
+}
+
+.Close_Icon {
+    padding-left:136px;
+}
 
 .App > h3 {
     text-align:left;
@@ -63,11 +83,11 @@ body {
     margin:10%;
 }
 
-.App > p{ /*Subheaders*/
-    font-size: large;
-    text-align: center;
+.App > p{ 
+    font-size:medium;
+    text-align: left;
     color: #7D848D;
-    margin-left:50px;
+    margin-left:45px;
     margin-right:50px;
 }
 
@@ -82,21 +102,21 @@ body {
     width:340px;
     border-radius:16px;
     font-style:italic;
-    margin-top:50px;
+    margin-top:20px;
+    
 }
 
 .Gray-Input{
     background-color:#f0f0f0;
     border:none;
     color:#282c3b;
-    padding: 23px 32px;
+    padding: 15px 32px;
     text-align:left;
     display:inline-block;
-    font-size:16px;
+    font-size:15px;
     width:270px;
     border-radius:15px;
     font-style:italic;
-    margin:10px;
 }
 
 
@@ -104,6 +124,8 @@ body {
     text-decoration:none!important;
     text-decoration-color:white;
     color:white;
+    font-size:large;
+    font-style:italic;
 }
 
 .
