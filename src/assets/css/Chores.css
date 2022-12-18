@@ -10,7 +10,7 @@ body {
     width: 390px;
     height: 850px;
     margin: 10px;
-    border-radius: 20px;
+    border-radius: 15px;
     box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.2);
     font-family: 'Asap', sans-serif;
 }
@@ -22,13 +22,41 @@ body {
     margin-right:10%;
 }
 
-.App > h2 {
+.Header {
+    display:flex;
+    flex-direction:row;
+    align-items: center;
+    margin-left:9%;
+    margin-right:10%;
+}
+
+.Back_Icon{
+    margin-right:10%;
+    padding-right:80px;
+}
+
+.Add_Icon{
+    margin-left:10%;
+    padding-left:50px;
+    padding-right:10%;
+}
+
+.HeaderFont {
+    font-size:x-large;
+    display:inline-block;
+    font-weight:393;
+    text-align:center;
+}
+
+
+.App > h3 {
     text-align:left;
-    font-size:large;
+    font-size:20px;
     margin-left:10%;
     margin-right:10%;
     font-style:italic;
-    font-weight:200;
+    font-weight:393;
+    height:15px;
 }
 
 .Body {
@@ -41,11 +69,6 @@ body {
     color: #7D848D;
     margin-left:50px;
     margin-right:50px;
-}
-
-.Divider {
-    margin-left:45%;
-    width:40px;
 }
 
 .Turquoise-Button {
@@ -75,7 +98,6 @@ body {
     font-style:italic;
     margin:10px;
 }
-
 
 
 .Turquoise-Button-Text{
