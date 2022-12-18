@@ -4,8 +4,13 @@ import CloseButton from '../assets/images/chores/CloseButton.png';
 import ChoreBigCalendar from '../assets/images/chores/ChoreBigCalendar.png';
 import statusbar from '../assets/images/statusbar.png';
 import Navbar from "../components/NavbarChoresBlue";
+import AssignButton from '../assets/images/chores/AssignButton.png';
+import React,{useState} from 'react';
+import PopUp from '../components/AssignedPopUp';
 
 const AssignChore = () => {
+    const [popUp,setPopUp] = useState(false)
+    const duringPopUp=popUp ? " durind-popup" : ""
     return(
         <div className="App">
             <img alt='status bar for phone' src={statusbar}/>
@@ -21,11 +26,8 @@ const AssignChore = () => {
             <input className='Gray-Input' placeholder="Enter SuiteMate" type="text" id="fname" name="fname"></input>
             <p>Complete By</p>
             <img alt='Chore Calendar Big' src={ChoreBigCalendar}/>
-            <Link to="/NewChoreAssigned">
-                <button className='Turquoise-Button'>
-                    <div className='Turquoise-Button-Text'>Assign</div>
-                </button>
-            </Link>
+            <img onClick={()=> setPopUp(true)} alt='assign button' src={AssignButton}/>
+            {popUp&& <PopUp setPopUp={setPopUp}/>}
             <Navbar/>
         </div>
     );
