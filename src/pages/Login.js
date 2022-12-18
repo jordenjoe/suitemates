@@ -16,7 +16,7 @@ const Login = () => {
              with all your suitemates!</p>
              <div className='Divider'><img alt='divider' src={coverdivider}/></div>
            <button className='Turquoise-Button'>
-            <Link to="/Signin">
+            <Link to="/signin">
                 <div className='Turquoise-Button-Text'>Get started</div>
             </Link>
             </button>
