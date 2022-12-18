@@ -17,6 +17,8 @@ import JoinSuite from "./pages/JoinSuite";
 import ChoresComplete from "./pages/ChoresComplete";
 import AssignChore from "./pages/AssignChore";
 import NewChoreAssigned from "./pages/NewChoreAssigned";
+import ReminderSuccess from "./pages/ReminderSuccess";
+import NewReminderSuccess from "./pages/NewReminderSuccess";
 
 export default function App() {
   return (
@@ -37,6 +39,8 @@ export default function App() {
           <Route path="assignchore" element={<AssignChore />} />
           <Route path="chorescomplete" element={<ChoresComplete />} />
           <Route path="newchoreassigned" element={<NewChoreAssigned />} />
+          <Route path="remindersuccess" element={<ReminderSuccess />} />
+          <Route path="newremindersuccess" element={<NewReminderSuccess />} />
       </Routes>
     </BrowserRouter>
   );

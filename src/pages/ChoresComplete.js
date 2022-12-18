@@ -9,7 +9,7 @@ import LoungeIncomplete from '../assets/images/chores/LoungeIncomplete.png';
 import BackIcon from '../assets/images/chores/BackIcon.png';
 import AddIcon from '../assets/images/chores/AddIcon.png';
 
-const Home = () => {
+const ChoresComplete = () => {
     return (
       <div className="App">
         <img alt='status bar for phone' src={statusbar}/>
@@ -27,10 +27,12 @@ const Home = () => {
         <Link to="/Chores">
             <img alt='POV chore Complete' src={BathroomComplete}/>
         </Link>
-        <img alt='Suitemate chore incomplete' src={LoungeIncomplete}/>
+        <Link to="/ReminderSuccess">
+            <img alt='Suitemate chore incomplete' src={LoungeIncomplete}/>
+        </Link>
         <Navbar />
       </div>
     );
   };
   
-export default Home;
+export default ChoresComplete;

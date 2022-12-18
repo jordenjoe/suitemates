@@ -23,7 +23,9 @@ const NewChoreAssigned = () => {
         </div>
         <img alt='chores header, Oct 25' src={Cal1025}/>
         <h3>Chores To Do</h3>
-        <img alt='New Chore Created' src={TableIncomplete}/>
+        <Link to="/NewReminderSuccess">
+            <img alt='New Chore Created' src={TableIncomplete}/>
+        </Link>
         <Navbar />
       </div>
     );
