@@ -19,6 +19,8 @@ import AssignChore from "./pages/AssignChore";
 import NewChoreAssigned from "./pages/NewChoreAssigned";
 import ReminderSuccess from "./pages/ReminderSuccess";
 import NewReminderSuccess from "./pages/NewReminderSuccess";
+import NewSuite from "./pages/NewSuite";
+import ForgotPassword from "./pages/ForgotPassword";
 
 export default function App() {
   return (
@@ -30,7 +32,9 @@ export default function App() {
           <Route path="signup" element={<Signup />} />
           <Route path="signin" element={<Signin />} />
           <Route path="joinsuite" element={<JoinSuite />} />
+          <Route path="newsuite" element={<NewSuite />} />
           <Route path="calendar" element={<Calendar />} />
+          <Route path="forgotpassword" element={<ForgotPassword />} />
           <Route path="calendarmonthly" element={<CalendarMonthly />} />
           <Route path="calendarwithrequest" element={<CalendarWithRequest />} />
           <Route path="chores" element={<Chores />} />

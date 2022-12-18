@@ -11,14 +11,16 @@ const Signin = () => {
     return (
     <div className="App">
          <img alt='status bar for phone' src={statusbar}/>
-         <img alt='status bar for phone' src={buildingicon}/>
+          <img src={buildingicon}/>
          <Suitemates />
          <div className="Login-Body">
          <p className="Small-Gray-Text">Please sign in to continue.</p>
-         <div className='Gray-Button'>www.test@columbia.edu</div>
-         <div className='Gray-Button'>*********&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;&#8194;<img src={eye}/></div>
+         <input className='Gray-Input' placeholder="Email@email.com" type="text" id="fname" name="fname"></input>
+         <input className='Gray-Input' placeholder="***********" type="text" id="fname" name="fname"></input>
          <div className='Align-Right'>
-         <p className='Small-Turqoise-Text'>Forgot Password?</p>
+         <Link to="/forgotpassword">
+          <p className='Small-Turqoise-Text'>Forgot Password?</p>
+          </Link>
          </div>
          <Link to="/home">
             <div className='Turquoise-Button-Login'>Sign In</div>

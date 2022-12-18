@@ -95,7 +95,7 @@ a { text-decoration: none; color:#48C3C0; }
   font-weight: bold;
 }
 
-.Gray-Button{
+.Gray-Input{
   background-color: #f0f0f0; /* Green */
   border: none;
   color: #282c3b;
@@ -166,4 +166,86 @@ I don't know what these are - leftover from the basic template
   to {
     transform: rotate(360deg);
   }
+}
+
+
+
+.during-popup{
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+}
+
+
+/* POP UP */
+
+.PopUp{
+  position: fixed;
+  left: 15%;
+  top: 30%;
+
+  width: 70%;
+  
+  border: 0px;
+  border-radius: 1em;
+  box-shadow: 1px 1px 120px 50px #f2f2f2;
+
+  background-color: #ffffff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  }
+
+
+.PopUp-Content-CreateSuite{
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.PopUp-Content-CopyInvite{
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
+}
+
+.Popup-Input{
+  background-color: #f8f8f8; /* Green */
+  border: none;
+  color: #1B1E28;
+  padding: 15px 17px;
+  text-align: center;
+  display: inline-block;
+  font-size: 18px;
+  border-radius: 18px;
+  font-style: italic;
+}
+
+.Popup-Plus{
+  color: white;
+  width: 20px;
+  height: 20px;
+  background-color: #48C3C0;
+  border-radius: 50%;
+  border: 0px;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+
+.Login-Building-Icon{
+  text-align: left;
+  margin-left:30px;
+}
+
+
+.Medium-Pink-Text{
+  color: #C34889;
+  font-size: 20px;
+
 }
