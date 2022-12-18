@@ -14,7 +14,7 @@ const PopUp = props => {
     return (
         <div className="PopUp">
             
-            <div className="PopUp-Content">
+            <div className="PopUp-Content-CreateSuite">
                 <img onClick={()=> setPopUp(false)} src={createsuite}/>
                 <p><input className='Popup-Input' placeholder="Suite Name" type="text"></input>
                 <Link to="/newsuite">

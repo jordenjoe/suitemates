@@ -198,13 +198,20 @@ I don't know what these are - leftover from the basic template
   }
 
 
-.PopUp-Content{
+.PopUp-Content-CreateSuite{
   width: 100%;
   display: inline-block;
   justify-content: center;
   align-items: center;
-  margin-top: 20px;
-  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.PopUp-Content-CopyInvite{
+  width: 100%;
+  display: inline-block;
+  justify-content: center;
+  align-items: center;
+  margin:20px;
 }
 
 .Popup-Input{
@@ -217,7 +224,6 @@ I don't know what these are - leftover from the basic template
   font-size: 18px;
   border-radius: 18px;
   font-style: italic;
-  margin: 15px;
 }
 
 .Popup-Plus{
@@ -227,6 +233,14 @@ I don't know what these are - leftover from the basic template
   background-color: #48C3C0;
   border-radius: 50%;
   border: 0px;
+  margin-right: 10px;
+  margin-left: 5px;
+
+}
+
+.Login-Building-Icon{
+  text-align: left;
+  margin-left:30px;
 }
 
 
