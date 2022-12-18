@@ -4,8 +4,8 @@ import '../assets/css/Home.css';
 import '../assets/css/Chores.css';
 import Navbar from "../components/NavbarChoresBlue";
 import statusbar from '../assets/images/statusbar.png';
-import ChoresHeader from '../assets/images/ChoresHeader.png';
-import Chores1022Cal from '../assets/images/Chores1022Cal.png';
+import ChoresHeader from '../assets/images/chores/ChoresHeader.png';
+import Chores1022Cal from '../assets/images/chores/Chores1022Cal.png';
 
 const Home = () => {
     return (
