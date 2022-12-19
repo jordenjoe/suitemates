@@ -1,7 +1,7 @@
 import {Link} from "react-router-dom";
 import '../assets/css/Chores.css';
 import CloseButton from '../assets/images/chores/CloseButton.png';
-import ChoreBigCalendar from '../assets/images/chores/ChoreBigCalendar.png';
+import EmptyBigCal from '../assets/images/chores/EmptyBigCal.png';
 import statusbar from '../assets/images/statusbar.png';
 import Navbar from "../components/NavbarChoresBlue";
 import AssignButton from '../assets/images/chores/AssignButton.png';
@@ -25,7 +25,9 @@ const AssignChore = () => {
             <p>Assign To</p>
             <input className='Gray-Input' placeholder="Enter SuiteMate" type="text" id="fname" name="fname"></input>
             <p>Complete By</p>
-            <img alt='Chore Calendar Big' src={ChoreBigCalendar}/>
+            <Link to="/AssignChoreCalUpdate">
+                <img alt='Chore Calendar Big' src={EmptyBigCal}/>
+            </Link>
             <img onClick={()=> setPopUp(true)} alt='assign button' src={AssignButton}/>
             {popUp&& <PopUp setPopUp={setPopUp}/>}
             <div className="NavPadding-Assign"><Navbar/></div>
