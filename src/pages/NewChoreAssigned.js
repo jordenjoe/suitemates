@@ -26,7 +26,7 @@ const NewChoreAssigned = () => {
         <Link to="/NewReminderSuccess">
             <img alt='New Chore Created' src={TableIncomplete}/>
         </Link>
-        <Navbar />
+        <div className="NavPadding-New"><Navbar /></div>
       </div>
     );
   };
