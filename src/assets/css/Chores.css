@@ -163,6 +163,11 @@ a {
     }
 }
 
+.during-popup-Chores{
+    -webkit-backdrop-filter:blur(10px);
+    backdrop-filter:blur(10px);
+}
+
 .PopUp-Chores {
   position: fixed;
   left: 15%;
@@ -184,8 +189,9 @@ a {
 
 .PopUpContent-Chores {
     width: 100%;
+    justify-content:center;
     align-items: center;
-    margin: 20px;
+    margin-top: 10px;
 }
 
 .PopUpContent-Chores>h1 {
