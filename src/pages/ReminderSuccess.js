@@ -29,7 +29,7 @@ const ReminderSuccess = () => {
             <img alt='POV chore Complete' src={BathroomComplete}/>
         </Link>
         <img alt='Suitemate Reminder Sent' src={ReminderSent}/>
-        <Navbar />
+        <div className="NavPadding-Lounge"><Navbar /></div>
       </div>
     );
   };

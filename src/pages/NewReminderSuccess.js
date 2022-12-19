@@ -24,7 +24,7 @@ const NewChoreAssigned = () => {
         <img alt='chores header, Oct 25' src={Cal1025}/>
         <h3>Chores To Do</h3>
         <img alt='New Chore reminder sent' src={NewReminderSent}/>
-        <Navbar />
+        <div className="NavPadding-New"><Navbar /></div>
       </div>
     );
   };

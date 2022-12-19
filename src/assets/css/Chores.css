@@ -130,6 +130,17 @@ body {
     font-style: italic;
 }
 
+.NavPadding-Lounge{
+    padding-top:18px;
+}
+
+.Calendar-Padding{
+    padding-bottom:30px;
+}
+
+.NavPadding-New{
+    padding-top:218px;
+}
 
 a {
     text-decoration: none;
