@@ -164,21 +164,22 @@ a {
 }
 
 .PopUp-Chores {
-    position: fixed;
-    left: 15%;
-    top: 30%;
-    width: 270px;
-    height: 275px;
-    border: 0px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 10px 10px #F7F7F9;
-    background-color: #ffff;
-    justify-content: center;
-    align-items: center;
-    padding-right: 40px;
-    padding-left: 5px;
-    margin: -162px;
-    margin-top: 20px;
+  position: fixed;
+  left: 15%;
+  top: 30%;
+
+  width: 70%;
+  
+  border: 0px;
+  border-radius: 1em;
+  box-shadow: 1px 1px 120px 50px #f2f2f2;
+
+  background-color: #ffffff;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
 }
 
 .PopUpContent-Chores {
