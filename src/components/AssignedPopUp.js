@@ -5,7 +5,7 @@ import {Link} from "react-router-dom";
 import okbutton from '../assets/images/chores/okbutton.png';
 import AssignButton from '../assets/images/chores/AssignButton.png';
 
-const AssignedPopUp = props => {
+const PopUp = props => {
     const {setPopUp} = props
 
     return(
@@ -25,4 +25,4 @@ const AssignedPopUp = props => {
 
 };
 
-export default AssignedPopUp;
+export default PopUp;
