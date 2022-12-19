@@ -7,11 +7,8 @@ import statusbar from '../assets/images/statusbar.png';
 import Navbar from "../components/NavbarChoresBlue";
 import AssignButton from '../assets/images/chores/AssignButton.png';
 import React,{useState} from 'react';
-import PopUp from '../components/AssignedPopUp';
 
 const AssignChore = () => {
-    const [popUp,setPopUp] = useState(false)
-    const duringPopUp=popUp ? " durind-popup" : ""
     return(
         <div className="App">
             <img alt='status bar for phone' src={statusbar}/>
@@ -29,8 +26,7 @@ const AssignChore = () => {
             <Link to="/AssignChoreCalUpdate">
                 <img alt='Chore Calendar Big' src={EmptyBigCal}/>
             </Link>
-            <img onClick={()=> setPopUp(true)} alt='assign button' src={AssignButton}/>
-            {popUp&& <PopUp setPopUp={setPopUp}/>}
+            <img alt='assign button' src={AssignButton}/>
             <div className="NavPadding-Assign"><Navbar/></div>
         </div>
     );
