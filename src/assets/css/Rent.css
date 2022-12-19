@@ -1,0 +1,15 @@
+/* Rent header */
+.rent-header-container {
+  margin: 10px 0px 10px 0px;
+}
+
+.back-home {
+  background-color: transparent;
+  opacity: 0;
+  border: none;
+  z-index: 3;
+  position: absolute;
+  margin: 5px 5px 10px 35px;
+  width: 40px;
+  height: 40px;
+}
