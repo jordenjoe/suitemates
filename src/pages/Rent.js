@@ -6,6 +6,7 @@ import Navbar from "../components/NavbarRentBlue";
 import RentHeader from "../components/rent_components/RentHeader";
 import RentStatus from "../components/rent_components/RentStatus";
 import UpdateRent from "../components/rent_components/UpdateRent";
+import NudgeRoommate from "../components/rent_components/NudgeRoommate";
 //Images
 import statusbar from "../assets/images/statusbar.png";
 import updateRentButton from "../assets/images/rent/update-rent-button.png";
@@ -19,6 +20,7 @@ const Home = () => {
   const [updateModalActive, setUpdateModalActive] = useState(false);
   //1 = original, 2 = modified, 3 = paid
   const [rentStatus, setRentStatus] = useState(1);
+  const [nudged, setNudged] = useState(false);
 
   //Functions
   const showNudgeModal = () => {
@@ -41,8 +43,14 @@ const Home = () => {
     setUpdateModalActive(false);
   };
 
-  const confirmUpdateModal = () => {
+  const confirmUpdateModal = (e) => {
+    e.preventDefault();
     setRentStatus(2);
+    dismissUpdateModal();
+  };
+
+  const confirmNudgeModal = () => {
+    setNudged(true);
   };
 
   return (
@@ -56,7 +64,15 @@ const Home = () => {
             />
           </div>
         )}
-        {nudgeModalActive && <div className="modal-container">hey</div>}
+        {nudgeModalActive && (
+          <div className="modal-container">
+            <NudgeRoommate
+              onDismiss={dismissNudgeModal}
+              onConfirm={confirmNudgeModal}
+              nudged={nudged}
+            />
+          </div>
+        )}
       </span>
 
       <img alt="status bar for phone" src={statusbar} />

@@ -18,8 +18,15 @@ const UpdateRent = (props) => {
 
       <form onSubmit={onConfirm}>
         <input
-          className="new-rule-input"
+          className="new-rent-input"
           placeholder="Rent amount"
+          type="text"
+          id="new-rule"
+          name="new-rule"
+        />
+        <input
+          className="new-date-input"
+          placeholder="Due date"
           type="text"
           id="new-rule"
           name="new-rule"
