@@ -30,7 +30,7 @@ const ChoresComplete = () => {
         <Link to="/ReminderSuccess">
             <img alt='Suitemate chore incomplete' src={LoungeIncomplete}/>
         </Link>
-        <Navbar />
+        <div className="NavPadding-Lounge"><Navbar /></div>
       </div>
     );
   };
