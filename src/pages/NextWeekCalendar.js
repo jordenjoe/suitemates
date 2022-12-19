@@ -1,29 +1,14 @@
-import { useState } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
 import statusbar from '../assets/images/statusbar.png';
-import view from '../assets/images/calendar/weekview.png';
-import defaultview from '../assets/images/calendar/requestview.png';
-import acceptedview from '../assets/images/calendar/neweventpermanentview.png';
-import rejectedview from '../assets/images/calendar/emptyweekview.png';
+import view from '../assets/images/calendar/nextweekview.png';
+import nextweek from '../assets/images/calendar/nextweek.png';
 import header from '../assets/images/calendar/header.png';
 
-function getView(str) {
-  switch (str) {
-    case 'default':
-      return defaultview;
-    case 'accepted':
-      return acceptedview;
-    case 'rejected':
-      return rejectedview;
-    default:
-      return null;
-  }
-}
 
-const Calendar = (props) => {
-  const [calendarView] = useState(sessionStorage.getItem("calendar-view") ? getView(sessionStorage.getItem("calendar-view")) : defaultview);
+
+const NextWeekCalendar = (props) => {
 
   return (
     <div className="App">
@@ -37,27 +22,27 @@ const Calendar = (props) => {
       <img alt='7 day calendar view' src={view} />
 
       <div style={{ position: "relative" }} >
-        <img alt='1 day calendar view' src={calendarView} />
-        {calendarView === defaultview && <Link to="/reviewrequest">
+        <img alt='1 day calendar view' src={nextweek} />
+        {<Link to="/reviewrequest">
           <button style={{
+            cursor: "pointer",
             position: "absolute",
             left: 100,
             right: 50,
             top: 45,
             bottom: 215,
             background: "rgba(255, 0, 0, 0)",
-            border: "none",
-            cursor: "pointer"
+            border: "none"
           }} />
         </Link>}
 
       </div>
       {/*  invisible button on the png */}
-      <Link to="/nextweekcalendar">
+      <Link to="/calendar">
         <button style={{
           position: "absolute",
-          left: 325,
-          right: 45,
+          left: 290,
+          right: 70,
           top: 200,
           bottom: 615,
           background: "rgba(255, 0, 0, .0)",
@@ -65,20 +50,6 @@ const Calendar = (props) => {
           border: "none"
         }} />
       </Link>
-
-      <Link to="/home">
-        <button style={{
-          position: "absolute",
-          left: 30,
-          right: 310,
-          top: 50,
-          bottom: 750,
-          background: "rgba(255, 0, 0, .0)",
-          cursor: "pointer",
-          border: "none"
-        }} />
-      </Link>
-
 
       <Link to="/createrequest">
         <button className="Calendar-Button">Add a Request</button>
@@ -88,4 +59,4 @@ const Calendar = (props) => {
   );
 };
 
-export default Calendar;
+export default NextWeekCalendar;
