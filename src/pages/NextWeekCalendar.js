@@ -25,6 +25,7 @@ const NextWeekCalendar = (props) => {
         <img alt='1 day calendar view' src={nextweek} />
         {<Link to="/reviewrequest">
           <button style={{
+            cursor: "pointer",
             position: "absolute",
             left: 100,
             right: 50,

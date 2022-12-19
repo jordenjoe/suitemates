@@ -18,6 +18,7 @@ const RequestCreationSuccess = (props) => {
                     marginBottom: "42px"
                 }} />
                 <Link to="/calendar" style={{
+                    cursor: "pointer",
                     position: "absolute",
                     left: 45,
                     right: 35,

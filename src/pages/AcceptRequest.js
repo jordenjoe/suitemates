@@ -20,6 +20,7 @@ const AcceptRequest = (props) => {
 
             <Link to="/calendar">
                 <button style={{
+                    cursor: "pointer",
                     position: "absolute",
                     left: 57,
                     right: 60,

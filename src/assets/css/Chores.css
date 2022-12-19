@@ -85,7 +85,7 @@ body {
     margin: 10%;
 }
 
-.App>p {
+.p-Chores {
     font-size: medium;
     text-align: left;
     color: #7D848D;
@@ -93,7 +93,7 @@ body {
     margin-right: 50px;
 }
 
-.Turquoise-Button {
+.Turquoise-Button-Chores {
     background-color: #48C3C0;
     border: none;
     color: white;
@@ -108,7 +108,7 @@ body {
 
 }
 
-.Gray-Input {
+.Gray-Input-Chores {
     background-color: #f0f0f0;
     border: none;
     color: #282c3b;
@@ -122,7 +122,7 @@ body {
 }
 
 
-.Turquoise-Button-Text {
+.Turquoise-Button-Text-Chores {
     text-decoration: none !important;
     text-decoration-color: white;
     color: white;
@@ -130,10 +130,6 @@ body {
     font-style: italic;
 }
 
-.a:visited {
-    text-decoration: none;
-    color: #48C3C0;
-}
 
 a {
     text-decoration: none;
@@ -156,7 +152,7 @@ a {
     }
 }
 
-.PopUp {
+.PopUp-Chores {
     position: fixed;
     left: 15%;
     top: 30%;
@@ -174,13 +170,13 @@ a {
     margin-top: 20px;
 }
 
-.PopUpContent {
+.PopUpContent-Chores {
     width: 100%;
     align-items: center;
     margin: 20px;
 }
 
-.PopUpContent>h1 {
+.PopUpContent-Chores>h1 {
     text-align: center;
     font-size: x-large;
     margin-left: 10%;
@@ -189,7 +185,7 @@ a {
 
 }
 
-.PopUpContent>p {
+.PopUpContent-Chores>p {
     text-align: center;
     font-size: medium;
     margin-left: 10%;

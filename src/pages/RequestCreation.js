@@ -16,6 +16,7 @@ const RequestCreation = (props) => {
             }} />
             <Link to="/createrequestsuccess">
                 <button className="Calendar-Button" style={{
+                    cursor: "pointer",
                     marginTop: "32px",
                     marginBottom: "47px"
                 }}>Complete Request</button>

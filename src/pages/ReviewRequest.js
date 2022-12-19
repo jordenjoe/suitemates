@@ -24,6 +24,7 @@ const ReviewRequest = (props) => {
             {/* accept button below */}
             <Link to="/acceptrequest">
                 <button style={{
+                    cursor: "pointer",
                     position: "absolute",
                     left: 57,
                     right: 60,
@@ -38,6 +39,7 @@ const ReviewRequest = (props) => {
             {/* reject button below */}
             <Link to="/rejectrequest">
                 <button style={{
+                    cursor: "pointer",
                     position: "absolute",
                     left: 57,
                     right: 60,
@@ -52,6 +54,7 @@ const ReviewRequest = (props) => {
             {/* cancel button below */}
             <Link to="/calendar">
                 <button style={{
+                    cursor: "pointer",
                     position: "absolute",
                     left: 57,
                     right: 60,

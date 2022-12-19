@@ -46,7 +46,8 @@ const Calendar = (props) => {
             top: 45,
             bottom: 215,
             background: "rgba(255, 0, 0, 0)",
-            border: "none"
+            border: "none",
+            cursor: "pointer"
           }} />
         </Link>}
 
@@ -59,6 +60,19 @@ const Calendar = (props) => {
           right: 45,
           top: 200,
           bottom: 615,
+          background: "rgba(255, 0, 0, .0)",
+          cursor: "pointer",
+          border: "none"
+        }} />
+      </Link>
+
+      <Link to="/home">
+        <button style={{
+          position: "absolute",
+          left: 30,
+          right: 310,
+          top: 50,
+          bottom: 750,
           background: "rgba(255, 0, 0, .0)",
           cursor: "pointer",
           border: "none"

@@ -1,4 +1,5 @@
 import { Link } from "react-router-dom";
+import '../assets/css/Login.css';
 import '../assets/css/Chores.css';
 import Navbar from "../components/NavbarChoresBlue";
 import statusbar from '../assets/images/statusbar.png';
@@ -28,7 +29,7 @@ const Chores = () => {
             <img alt='POV chore incomplete' src={BathroomIncomplete}/>
         </Link>
         <img alt='Suitemate chore incomplete' src={LoungeIncomplete}/>
-        <Navbar />
+        <div className="NavPadding-Lounge"><Navbar /></div>
       </div>
     );
   };
