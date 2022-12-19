@@ -42,7 +42,6 @@ export default function App() {
         <Route path="calendar" element={<Calendar />} />
         <Route path="forgotpassword" element={<ForgotPassword />} />
         <Route path="calendarmonthly" element={<CalendarMonthly />} />
-        <Route path="calendarwithrequest" element={<CalendarWithRequest />} />
         <Route path="chores" element={<Chores />} />
         <Route path="rent" element={<Rent />} />
         <Route path="suite" element={<Suite />} />
