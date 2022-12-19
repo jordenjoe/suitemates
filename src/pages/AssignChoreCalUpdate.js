@@ -10,9 +10,9 @@ import PopUp from '../components/AssignedPopUp';
 
 const AssignChore = () => {
     const [popUp,setPopUp] = useState(false)
-    const duringPopUp=popUp ? " durind-popup" : ""
+    const duringPopUp=popUp ? " during-popup" : ""
     return(
-        <div className="App">
+        <div className={"App" + duringPopUp}>
             <img alt='status bar for phone' src={statusbar}/>
             <div className="Single-Icon-Header">
                 <div className="Single-Icon-Header-Font">Assign Chore</div>
@@ -26,8 +26,8 @@ const AssignChore = () => {
             <input className='Gray-Input' placeholder="Enter SuiteMate" type="text" id="fname" name="fname"></input>
             <p>Complete By</p>
             <img alt='Chore Calendar Big' src={ChoreBigCalendar}/>
-            <img onClick={()=> setPopUp(true)} alt='assign button' src={AssignButton}/>
-            {popUp&& <PopUp setPopUp={setPopUp}/>}
+            <img onClick={()=>setPopUp(true)} alt='assign button' src={AssignButton}/>
+            {popUp && <PopUp setPopUp = {setPopUp}/>}
             <div className="NavPadding-Assign"><Navbar/></div>
         </div>
     );
