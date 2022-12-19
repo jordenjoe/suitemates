@@ -11,24 +11,43 @@ import RemoveRoommates from "../components/suite_components/RemoveRoommates";
 import statusbar from "../assets/images/statusbar.png";
 import removeRoomates from "../assets/images/suites/remove_roommates.png";
 import inviteCode from "../assets/images/suites/invite_code.png";
+import AddHouseRuleModal from "../components/suite_components/AddHouseRuleModal";
 
 const Suite = () => {
   //State variables
   const [modalActive, setModalActive] = useState(false);
-  const [ruleModal, setRuleModal] = useState(false);
+  const [newRuleModal, setNewRuleModal] = useState(false);
+  const [editRules, setEditRules] = useState(true);
+  const [ruleDeleted, setRuleDeleted] = useState(false);
   const [codeModal, setCodeModal] = useState(false);
   const [removeModal, setRemoveModal] = useState(false);
   const [roommateRemoved, setRoommateRemoved] = useState(false);
+  const [newRule, setNewRule] = useState("");
+  const [newRuleFilled, setNewRuleFilled] = useState(false);
 
   //Functions
-  const showRuleModal = () => {
+  const showNewRuleModal = () => {
     setModalActive(true);
-    setRuleModal(true);
+    setNewRuleModal(true);
   };
 
   const dismissRuleModal = () => {
     setModalActive(false);
-    setRuleModal(false);
+    setNewRule("");
+    setNewRuleModal(false);
+  };
+
+  const editRuleModal = () => {
+    setEditRules(false);
+  };
+
+  const dismissEditRuleModal = () => {
+    setEditRules(true);
+  };
+
+  const deleteRule = () => {
+    setRuleDeleted(true);
+    setNewRule("");
   };
 
   const showCodeModal = () => {
@@ -49,27 +68,44 @@ const Suite = () => {
   const dismissRemoveModal = () => {
     setModalActive(false);
     setRemoveModal(false);
-    console.log("bro!!!");
   };
 
   const handleRoommateRemoved = () => {
     setRoommateRemoved(true);
-    console.log("bro!!!");
-    console.log(roommateRemoved);
+  };
+
+  const handleSetNewRule = (e) => {
+    e.preventDefault();
+    setNewRule(e.target.value);
+  };
+
+  const confirmSetNewRule = () => {
+    setRuleDeleted(false);
+    setNewRuleFilled(true);
+    setModalActive(false);
+    setNewRuleModal(false);
   };
 
   return (
     <div className="App">
       <div>
         <span className={modalActive ? "modal-background" : ""}>
-          {ruleModal && <div class="modal-container">hey</div>}
+          {newRuleModal && (
+            <div className="modal-container">
+              <AddHouseRuleModal
+                onDismiss={dismissRuleModal}
+                onChange={handleSetNewRule}
+                onConfirm={confirmSetNewRule}
+              />
+            </div>
+          )}
           {codeModal && (
-            <div class="modal-container">
+            <div className="modal-container">
               <CopyInviteCode onDismiss={dismissCodeModal} />
             </div>
           )}
           {removeModal && (
-            <div class="modal-container">
+            <div className="modal-container">
               <RemoveRoommates
                 onDismiss={dismissRemoveModal}
                 onDelete={handleRoommateRemoved}
@@ -80,7 +116,16 @@ const Suite = () => {
         </span>
         <img alt="status bar for phone" src={statusbar} />
         <SuiteHeader />
-        <HouseRules />
+        <HouseRules
+          onEdit={editRuleModal}
+          onDismissEdit={dismissEditRuleModal}
+          onDelete={deleteRule}
+          onCreate={showNewRuleModal}
+          showEditButton={editRules}
+          deleted={ruleDeleted}
+          newRuleFilled={newRuleFilled}
+          newRule={newRule}
+        />
         <div className="suite-buttons-container">
           <button onClick={showCodeModal} className="suite-buttons">
             <img alt="copy invite code" src={inviteCode} />
