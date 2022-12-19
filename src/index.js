@@ -21,6 +21,7 @@ import ReminderSuccess from "./pages/ReminderSuccess";
 import NewReminderSuccess from "./pages/NewReminderSuccess";
 import NewSuite from "./pages/NewSuite";
 import ForgotPassword from "./pages/ForgotPassword";
+import Message from "./pages/Message";
 
 export default function App() {
   return (
@@ -45,6 +46,7 @@ export default function App() {
         <Route path="newchoreassigned" element={<NewChoreAssigned />} />
         <Route path="remindersuccess" element={<ReminderSuccess />} />
         <Route path="newremindersuccess" element={<NewReminderSuccess />} />
+        <Route path="message" element={<Message />} />
       </Routes>
     </BrowserRouter>
   );

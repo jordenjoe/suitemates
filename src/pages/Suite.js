@@ -12,12 +12,13 @@ import statusbar from "../assets/images/statusbar.png";
 import removeRoomates from "../assets/images/suites/remove_roommates.png";
 import inviteCode from "../assets/images/suites/invite_code.png";
 
-const Home = () => {
+const Suite = () => {
   //State variables
   const [modalActive, setModalActive] = useState(false);
   const [ruleModal, setRuleModal] = useState(false);
   const [codeModal, setCodeModal] = useState(false);
   const [removeModal, setRemoveModal] = useState(false);
+  const [roommateRemoved, setRoommateRemoved] = useState(false);
 
   //Functions
   const showRuleModal = () => {
@@ -25,14 +26,36 @@ const Home = () => {
     setRuleModal(true);
   };
 
+  const dismissRuleModal = () => {
+    setModalActive(false);
+    setRuleModal(false);
+  };
+
   const showCodeModal = () => {
     setModalActive(true);
     setCodeModal(true);
   };
 
+  const dismissCodeModal = () => {
+    setModalActive(false);
+    setCodeModal(false);
+  };
+
   const showRemoveModal = () => {
     setModalActive(true);
     setRemoveModal(true);
+  };
+
+  const dismissRemoveModal = () => {
+    setModalActive(false);
+    setRemoveModal(false);
+    console.log("bro!!!");
+  };
+
+  const handleRoommateRemoved = () => {
+    setRoommateRemoved(true);
+    console.log("bro!!!");
+    console.log(roommateRemoved);
   };
 
   return (
@@ -42,12 +65,16 @@ const Home = () => {
           {ruleModal && <div class="modal-container">hey</div>}
           {codeModal && (
             <div class="modal-container">
-              <CopyInviteCode />
+              <CopyInviteCode onDismiss={dismissCodeModal} />
             </div>
           )}
           {removeModal && (
             <div class="modal-container">
-              <RemoveRoommates />
+              <RemoveRoommates
+                onDismiss={dismissRemoveModal}
+                onDelete={handleRoommateRemoved}
+                deleted={roommateRemoved}
+              />
             </div>
           )}
         </span>
@@ -72,4 +99,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Suite;

@@ -1,3 +1,4 @@
+/* Suite header */
 .suite-header-container {
   margin: 10px 0px 10px 0px;
 }
@@ -13,6 +14,7 @@
   height: 40px;
 }
 
+/* Suite */
 .remove-roommates-button {
   margin-top: -20px;
 }
@@ -42,4 +44,59 @@
 .modal-container {
   position: relative;
   top: 40%;
+}
+
+/* Invite code modal */
+.dismiss-remove,
+.remove-roommate,
+.dismiss-invite,
+.send-invite,
+.back-home-from-message {
+  background-color: aqua;
+  opacity: 0.6;
+  border: none;
+  z-index: 3;
+  position: absolute;
+}
+
+.dismiss-remove {
+  margin: 15px 5px 10px 20px;
+  width: 40px;
+  height: 40px;
+}
+
+.remove-roommate {
+  margin: 122px 5px 10px 40px;
+  width: 20px;
+  height: 20px;
+}
+
+.dismiss-invite {
+  margin: 18px 5px 10px 30px;
+  width: 40px;
+  height: 40px;
+}
+
+.send-invite {
+  margin: 90px 5px 10px 50px;
+  width: 100px;
+  height: 35px;
+}
+
+.i-message {
+  width: 413px;
+  height: 850px;
+}
+
+.back-home-from-message {
+  opacity: 1;
+  background-color: #f5f4f4;
+  margin: 58px 5px 10px 30px;
+  padding-top: 8px;
+  padding-left: px;
+  font-size: large;
+  width: 60px;
+  height: 35px;
+  color: rgb(20, 119, 201);
+  text-align: left;
 }
