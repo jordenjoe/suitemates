@@ -26,16 +26,19 @@ const Calendar = (props) => {
 
       <div style={{ position: "relative" }} >
         <img alt='1 day calendar view' src={dayview} />
-        <button style={{
-          position: "absolute",
-          left: 100,
-          right: 50,
-          top: 45,
-          bottom: 215,
-          background: "rgba(255, 0, 0, 0)",
-          border: "none"
-        }}
-          onClick={onRequestPendingClick}> </button>
+        <Link to="/reviewrequest">
+          <button style={{
+            position: "absolute",
+            left: 100,
+            right: 50,
+            top: 45,
+            bottom: 215,
+            background: "rgba(255, 0, 0, 0)",
+            border: "none"
+          }}
+            onClick={onRequestPendingClick}> </button>
+        </Link>
+
       </div>
       {/*  invisible button on the png */}
 

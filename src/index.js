@@ -22,6 +22,8 @@ import NewSuite from "./pages/NewSuite";
 import ForgotPassword from "./pages/ForgotPassword";
 import RequestCreation from "./pages/RequestCreation";
 import RequestCreationSuccess from "./pages/RequestCreationSuccess"
+import ReviewRequest from "./pages/ReviewRequest"
+import AcceptRequest from "./pages/AcceptRequest"
 
 export default function App() {
   return (
@@ -47,6 +49,8 @@ export default function App() {
         <Route path="newremindersuccess" element={<NewReminderSuccess />} />
         <Route path="createrequest" element={<RequestCreation />} />
         <Route path="createrequestsuccess" element={<RequestCreationSuccess />} />
+        <Route path="reviewrequest" element={<ReviewRequest />} />
+        <Route path="acceptrequest" element={<AcceptRequest />} />
       </Routes>
     </BrowserRouter>
   );
