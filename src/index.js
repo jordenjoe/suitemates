@@ -25,6 +25,7 @@ import RequestCreationSuccess from "./pages/RequestCreationSuccess"
 import ReviewRequest from "./pages/ReviewRequest"
 import AcceptRequest from "./pages/AcceptRequest"
 import RejectRequest from "./pages/RejectRequest"
+import NextWeekCalendar from "./pages/NextWeekCalendar"
 
 
 export default function App() {
@@ -54,6 +55,7 @@ export default function App() {
         <Route path="reviewrequest" element={<ReviewRequest />} />
         <Route path="acceptrequest" element={<AcceptRequest />} />
         <Route path="rejectrequest" element={<RejectRequest />} />
+        <Route path="nextweekcalendar" element={<NextWeekCalendar />} />
       </Routes>
     </BrowserRouter>
   );
