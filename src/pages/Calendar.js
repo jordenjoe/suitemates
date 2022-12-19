@@ -1,17 +1,42 @@
+import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
 import statusbar from '../assets/images/statusbar.png';
 import view from '../assets/images/calendar/weekview.png';
-import dayview from '../assets/images/calendar/requestview.png';
+import defaultview from '../assets/images/calendar/requestview.png';
+import acceptedview from '../assets/images/calendar/neweventpermanentview.png';
+import rejectedview from '../assets/images/calendar/emptyweekview.png';
 import header from '../assets/images/calendar/header.png';
 
-
+function getView(str) {
+  switch (str) {
+    case 'default':
+      return defaultview;
+    case 'accepted':
+      return acceptedview;
+    case 'rejected':
+      return rejectedview;
+    default:
+      return null;
+  }
+}
 
 const Calendar = (props) => {
-  function onRequestPendingClick() {
-    console.log("Request Clicked!")
+  const [calendarView, setCalendarView] = useState(sessionStorage.getItem("calendar-view") ? getView(sessionStorage.getItem("calendar-view")) : defaultview);
+
+  function storageListener() {
+    console.log("yuhhhhhh")
+    setCalendarView(getView(sessionStorage.getItem("calendar-view")));
   }
+
+  useEffect(() => {
+    document.addEventListener('storage', storageListener);
+
+    return () => {
+      document.removeEventListener('storage', storageListener);
+    }
+  }, []);
 
   return (
     <div className="App">
@@ -25,8 +50,8 @@ const Calendar = (props) => {
       <img alt='7 day calendar view' src={view} />
 
       <div style={{ position: "relative" }} >
-        <img alt='1 day calendar view' src={dayview} />
-        <Link to="/reviewrequest">
+        <img alt='1 day calendar view' src={calendarView} />
+        {calendarView === defaultview && <Link to="/reviewrequest">
           <button style={{
             position: "absolute",
             left: 100,
@@ -35,9 +60,8 @@ const Calendar = (props) => {
             bottom: 215,
             background: "rgba(255, 0, 0, 0)",
             border: "none"
-          }}
-            onClick={onRequestPendingClick}> </button>
-        </Link>
+          }} />
+        </Link>}
 
       </div>
       {/*  invisible button on the png */}

@@ -24,6 +24,8 @@ import RequestCreation from "./pages/RequestCreation";
 import RequestCreationSuccess from "./pages/RequestCreationSuccess"
 import ReviewRequest from "./pages/ReviewRequest"
 import AcceptRequest from "./pages/AcceptRequest"
+import RejectRequest from "./pages/RejectRequest"
+
 
 export default function App() {
   return (
@@ -51,6 +53,7 @@ export default function App() {
         <Route path="createrequestsuccess" element={<RequestCreationSuccess />} />
         <Route path="reviewrequest" element={<ReviewRequest />} />
         <Route path="acceptrequest" element={<AcceptRequest />} />
+        <Route path="rejectrequest" element={<RejectRequest />} />
       </Routes>
     </BrowserRouter>
   );

@@ -21,7 +21,7 @@ const ReviewRequest = (props) => {
                 }}>Complete Request</button>
             </Link>
 
-            {/* reject button below */}
+            {/* accept button below */}
             <Link to="/acceptrequest">
                 <button style={{
                     position: "absolute",
@@ -29,6 +29,20 @@ const ReviewRequest = (props) => {
                     right: 60,
                     top: 455,
                     bottom: 356,
+                    background: "rgba(255, 0, 0, 0.0)",
+                    border: "none"
+                }}
+                > </button>
+            </Link>
+
+            {/* reject button below */}
+            <Link to="/rejectrequest">
+                <button style={{
+                    position: "absolute",
+                    left: 57,
+                    right: 60,
+                    top: 500,
+                    bottom: 310,
                     background: "rgba(255, 0, 0, 0.0)",
                     border: "none"
                 }}

@@ -2,14 +2,14 @@ import { Link } from "react-router-dom";
 import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
 import statusbar from '../assets/images/statusbar.png';
-import createrequest from '../assets/images/calendar/requests/requestaccepted.png';
+import createrequest from '../assets/images/calendar/requests/requestrejected.png';
 
 
 
 const AcceptRequest = (props) => {
     function onButtonClick() {
         // console.log("yuhhh")
-        sessionStorage.setItem("calendar-view", "accepted")
+        sessionStorage.setItem("calendar-view", "rejected")
     }
     return (
         <div className="App">
