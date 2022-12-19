@@ -10,7 +10,7 @@ import PopUp from '../components/AssignedPopUp';
 
 const AssignChore = () => {
     const [popUp,setPopUp] = useState(false)
-    const duringPopUp=popUp ? " during-popup" : ""
+    const duringPopUp=popUp ? " during-popup-Chores" : ""
     return(
         <div className={"App" + duringPopUp}>
             <img alt='status bar for phone' src={statusbar}/>
