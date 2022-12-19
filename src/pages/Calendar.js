@@ -3,14 +3,14 @@ import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
 import statusbar from '../assets/images/statusbar.png';
 import view from '../assets/images/calendar/weekview.png';
-import dayview from '../assets/images/calendar/dayview.png';
+import dayview from '../assets/images/calendar/requestview.png';
 import header from '../assets/images/calendar/header.png';
 
 
 
 const Calendar = (props) => {
-  function onClickListener() {
-    console.log("Clicked!")
+  function onRequestPendingClick() {
+    console.log("Request Clicked!")
   }
 
   return (
@@ -23,8 +23,25 @@ const Calendar = (props) => {
         </button>
       </Link>
       <img alt='7 day calendar view' src={view} />
-      <img alt='1 day calendar view' src={dayview} />
-      <button className="Calendar-Button" onClick={onClickListener}>Add a Request</button>
+
+      <div style={{ position: "relative" }} >
+        <img alt='1 day calendar view' src={dayview} />
+        <button style={{
+          position: "absolute",
+          left: 100,
+          right: 50,
+          top: 45,
+          bottom: 215,
+          background: "rgba(255, 0, 0, 0)",
+          border: "none"
+        }}
+          onClick={onRequestPendingClick}> </button>
+      </div>
+      {/*  invisible button on the png */}
+
+      <Link to="/createrequest">
+        <button className="Calendar-Button">Add a Request</button>
+      </Link>
       <Navbar />
     </div>
   );

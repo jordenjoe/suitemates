@@ -14,10 +14,13 @@ const RequestCreation = (props) => {
             <img alt='request creation' src={createrequest} style={{
                 marginTop: "30px"
             }} />
-            <button className="Calendar-Button" style={{
-                marginTop: "32px",
-                marginBottom: "47px"
-            }}>Complete Request</button>
+            <Link to="/createrequestsuccess">
+                <button className="Calendar-Button" style={{
+                    marginTop: "32px",
+                    marginBottom: "47px"
+                }}>Complete Request</button>
+            </Link>
+
             <Navbar />
         </div>
     );
