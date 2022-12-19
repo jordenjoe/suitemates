@@ -13,7 +13,7 @@ import updateRentButton from "../assets/images/rent/update-rent-button.png";
 import nudgeButton from "../assets/images/rent/nudge-button.png";
 import optOut from "../assets/images/rent/opt-out-rent.png";
 
-const Home = () => {
+const Rent = () => {
   //State variables
   const [modalActive, setModalActive] = useState(false);
   const [nudgeModalActive, setNudgeModalActive] = useState(false);
@@ -95,4 +95,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default Rent;
