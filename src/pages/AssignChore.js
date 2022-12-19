@@ -28,7 +28,7 @@ const AssignChore = () => {
             <img alt='Chore Calendar Big' src={ChoreBigCalendar}/>
             <img onClick={()=> setPopUp(true)} alt='assign button' src={AssignButton}/>
             {popUp&& <PopUp setPopUp={setPopUp}/>}
-            <Navbar/>
+            <div className="NavPadding-Assign"><Navbar/></div>
         </div>
     );
 
