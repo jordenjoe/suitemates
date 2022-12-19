@@ -1,8 +1,8 @@
 import ReactDOM from "react-dom/client";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import './assets/css/Login.css';
+import "./assets/css/Login.css";
 //import App from './App';
-import reportWebVitals from './reportWebVitals';
+import reportWebVitals from "./reportWebVitals";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Calendar from "./pages/Calendar";
@@ -20,13 +20,13 @@ import ReminderSuccess from "./pages/ReminderSuccess";
 import NewReminderSuccess from "./pages/NewReminderSuccess";
 import NewSuite from "./pages/NewSuite";
 import ForgotPassword from "./pages/ForgotPassword";
+import Message from "./pages/Message";
 import RequestCreation from "./pages/RequestCreation";
-import RequestCreationSuccess from "./pages/RequestCreationSuccess"
-import ReviewRequest from "./pages/ReviewRequest"
-import AcceptRequest from "./pages/AcceptRequest"
-import RejectRequest from "./pages/RejectRequest"
-import NextWeekCalendar from "./pages/NextWeekCalendar"
-
+import RequestCreationSuccess from "./pages/RequestCreationSuccess";
+import ReviewRequest from "./pages/ReviewRequest";
+import AcceptRequest from "./pages/AcceptRequest";
+import RejectRequest from "./pages/RejectRequest";
+import NextWeekCalendar from "./pages/NextWeekCalendar";
 
 export default function App() {
   return (
@@ -50,8 +50,12 @@ export default function App() {
         <Route path="newchoreassigned" element={<NewChoreAssigned />} />
         <Route path="remindersuccess" element={<ReminderSuccess />} />
         <Route path="newremindersuccess" element={<NewReminderSuccess />} />
+        <Route path="message" element={<Message />} />
         <Route path="createrequest" element={<RequestCreation />} />
-        <Route path="createrequestsuccess" element={<RequestCreationSuccess />} />
+        <Route
+          path="createrequestsuccess"
+          element={<RequestCreationSuccess />}
+        />
         <Route path="reviewrequest" element={<ReviewRequest />} />
         <Route path="acceptrequest" element={<AcceptRequest />} />
         <Route path="rejectrequest" element={<RejectRequest />} />
@@ -61,8 +65,7 @@ export default function App() {
   );
 }
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(<App />);
-
 
 reportWebVitals();
