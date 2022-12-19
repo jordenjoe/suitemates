@@ -111,7 +111,7 @@
 .dismiss-new-rule-modal,
 .rule,
 .delete-button {
-  background-color: rgba(147, 147, 147, 0.5);
+  background-color: rgba(147, 147, 147, 0);
   color: rgba(147, 147, 147, 0);
   border: none;
   z-index: 3;
