@@ -33,6 +33,19 @@ const Home = () => {
         }} />
       </Link>
 
+      <Link to="/calendar">
+        <button style={{
+          position: "absolute",
+          left: 133,
+          right: 220,
+          top: 385,
+          bottom: 430,
+          background: "rgba(255, 0, 0, .0)",
+          cursor: "pointer",
+          border: "none"
+        }} />
+      </Link>
+
       <Navbar />
     </div>
 
