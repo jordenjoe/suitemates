@@ -1,8 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&display=swap');
 
-.Calendar-Button{
-
-    background-color: #48C3C0; /* Green */
+.Calendar-Button {
+    cursor: pointer;
+    background-color: #48C3C0;
+    /* Green */
     border: none;
     color: white;
     height: 46px;
@@ -14,14 +15,14 @@
     font-size: medium;
     text-align: center;
 
-  }
+}
 
 
-.Calendar-Button{
+.Calendar-Button {
     margin-bottom: 20px;
 }
 
-.Calendar-Month{
+.Calendar-Month {
     margin: 10px;
     margin-top: 30px;
 }

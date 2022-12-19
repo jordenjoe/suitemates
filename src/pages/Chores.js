@@ -29,7 +29,7 @@ const Chores = () => {
             <img alt='POV chore incomplete' src={BathroomIncomplete}/>
         </Link>
         <img alt='Suitemate chore incomplete' src={LoungeIncomplete}/>
-        <Navbar />
+        <div className="NavPadding-Lounge"><Navbar /></div>
       </div>
     );
   };

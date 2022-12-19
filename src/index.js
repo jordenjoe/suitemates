@@ -7,7 +7,6 @@ import Login from "./pages/Login";
 import Home from "./pages/Home";
 import Calendar from "./pages/Calendar";
 import CalendarMonthly from "./pages/CalendarMonthly";
-import CalendarWithRequest from "./pages/CalendarWithRequest";
 import Chores from "./pages/Chores";
 import Rent from "./pages/Rent";
 import Suite from "./pages/Suite";
@@ -22,6 +21,12 @@ import NewReminderSuccess from "./pages/NewReminderSuccess";
 import NewSuite from "./pages/NewSuite";
 import ForgotPassword from "./pages/ForgotPassword";
 import Message from "./pages/Message";
+import RequestCreation from "./pages/RequestCreation";
+import RequestCreationSuccess from "./pages/RequestCreationSuccess";
+import ReviewRequest from "./pages/ReviewRequest";
+import AcceptRequest from "./pages/AcceptRequest";
+import RejectRequest from "./pages/RejectRequest";
+import NextWeekCalendar from "./pages/NextWeekCalendar";
 
 export default function App() {
   return (
@@ -47,6 +52,15 @@ export default function App() {
         <Route path="remindersuccess" element={<ReminderSuccess />} />
         <Route path="newremindersuccess" element={<NewReminderSuccess />} />
         <Route path="message" element={<Message />} />
+        <Route path="createrequest" element={<RequestCreation />} />
+        <Route
+          path="createrequestsuccess"
+          element={<RequestCreationSuccess />}
+        />
+        <Route path="reviewrequest" element={<ReviewRequest />} />
+        <Route path="acceptrequest" element={<AcceptRequest />} />
+        <Route path="rejectrequest" element={<RejectRequest />} />
+        <Route path="nextweekcalendar" element={<NextWeekCalendar />} />
       </Routes>
     </BrowserRouter>
   );
