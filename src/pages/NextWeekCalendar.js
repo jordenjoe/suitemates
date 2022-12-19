@@ -1,9 +1,8 @@
-import { useState, useEffect } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
 import statusbar from '../assets/images/statusbar.png';
-import view from '../assets/images/calendar/weekview.png';
+import view from '../assets/images/calendar/nextweekview.png';
 import nextweek from '../assets/images/calendar/nextweek.png';
 import header from '../assets/images/calendar/header.png';
 

@@ -1,4 +1,4 @@
-import { useState, useEffect } from 'react';
+import { useState } from 'react';
 import { Link } from "react-router-dom";
 import '../assets/css/Calendar.css';
 import Navbar from "../components/NavbarCalendarBlue";
@@ -23,7 +23,7 @@ function getView(str) {
 }
 
 const Calendar = (props) => {
-  const [calendarView, setCalendarView] = useState(sessionStorage.getItem("calendar-view") ? getView(sessionStorage.getItem("calendar-view")) : defaultview);
+  const [calendarView] = useState(sessionStorage.getItem("calendar-view") ? getView(sessionStorage.getItem("calendar-view")) : defaultview);
 
   return (
     <div className="App">
