@@ -15,7 +15,7 @@ import Signup from "./pages/Signup";
 import JoinSuite from "./pages/JoinSuite";
 import ChoresComplete from "./pages/ChoresComplete";
 import AssignChore from "./pages/AssignChore";
-import AssignChoreCalUpdate from "./pages/AssignChoreCalUpdate";
+import AssignChoreCalUpdate from "./pages/AssignChoreCallUpdate";
 import NewChoreAssigned from "./pages/NewChoreAssigned";
 import ReminderSuccess from "./pages/ReminderSuccess";
 import NewReminderSuccess from "./pages/NewReminderSuccess";
