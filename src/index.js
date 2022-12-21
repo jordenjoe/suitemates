@@ -15,7 +15,6 @@ import Signup from "./pages/Signup";
 import JoinSuite from "./pages/JoinSuite";
 import ChoresComplete from "./pages/ChoresComplete";
 import AssignChore from "./pages/AssignChore";
-import AssignChoreCalUpdate from "./pages/AssignChoreCallUpdate";
 import NewChoreAssigned from "./pages/NewChoreAssigned";
 import ReminderSuccess from "./pages/ReminderSuccess";
 import NewReminderSuccess from "./pages/NewReminderSuccess";
@@ -44,7 +43,6 @@ export default function App() {
         <Route path="forgotpassword" element={<ForgotPassword />} />
         <Route path="calendarmonthly" element={<CalendarMonthly />} />
         <Route path="chores" element={<Chores />} />
-        <Route path="assignchorecalupdate" element={<AssignChoreCalUpdate />} />
         <Route path="rent" element={<Rent />} />
         <Route path="suite" element={<Suite />} />
         <Route path="assignchore" element={<AssignChore />} />
