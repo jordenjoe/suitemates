@@ -1,0 +1,123 @@
+/* Rent header */
+.rent-header-container {
+  margin: 10px 0px 10px 0px;
+}
+
+.back-home {
+  background-color: transparent;
+  opacity: 0;
+  border: none;
+  z-index: 3;
+  position: absolute;
+  margin: 5px 5px 10px 35px;
+  width: 40px;
+  height: 40px;
+}
+
+/* Rent */
+.rent-container {
+  margin: 90px 0px 86px 0px;
+}
+
+.rent-buttons-container {
+  margin: 0px 0px 33px 0px;
+}
+
+.nudge-button,
+.update-rent-button {
+  background-color: transparent;
+  border: none;
+}
+
+.nudge-button {
+  margin-top: -20px;
+}
+
+.modal-background {
+  z-index: 3;
+  position: absolute;
+  display: block;
+  background-color: rgba(147, 147, 147, 0.6);
+  width: 390px;
+  height: 768px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  padding: 0;
+  margin: 0;
+}
+
+.pay-rent-button,
+.dismiss-rent-update,
+.confirm-rent-update {
+  background-color: rgba(147, 147, 147, 0);
+  color: rgba(147, 147, 147, 0);
+  border: none;
+  position: absolute;
+}
+
+.pay-rent-button {
+  margin: 125px 0px 0px 120px;
+  width: 120px;
+  height: 35px;
+  z-index: 1;
+}
+
+/* Update rent */
+
+.dismiss-rent-update {
+  margin: 5px 0px 0px -140px;
+  width: 45px;
+  height: 45px;
+}
+
+.confirm-rent-update {
+  margin: 198px 0px 0px -60px;
+  width: 120px;
+  height: 35px;
+}
+
+.new-rent-input,
+.new-date-input {
+  border: none;
+  z-index: 3;
+  position: absolute;
+  background-color: #f0f0f0;
+  color: #282c3b;
+  padding: 20px;
+  text-align: left;
+  display: inline-block;
+  font-size: 16px;
+  width: 260px;
+  border-radius: 15px;
+  opacity: 1;
+}
+
+.new-rent-input {
+  margin: 65px 10px 10px -150px;
+}
+
+.new-date-input {
+  margin: 132px 10px 10px -150px;
+}
+
+/* Nudge roommate */
+.nudge,
+.dismiss-nudge {
+  background-color: rgba(147, 147, 147, 0);
+  color: rgba(147, 147, 147, 0);
+  border: none;
+  position: absolute;
+  z-index: 4;
+}
+
+.dismiss-nudge {
+  margin: 25px 0px 0px 20px;
+  width: 45px;
+  height: 45px;
+}
+
+.nudge {
+  margin: 180px 0px 0px 80px;
+  width: 35px;
+  height: 35px;
+}
