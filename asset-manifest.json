@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/suitemates/static/css/main.861c21c4.css",
-    "main.js": "/suitemates/static/js/main.7dbae20c.js",
+    "main.css": "/suitemates/static/css/main.e00da5b9.css",
+    "main.js": "/suitemates/static/js/main.59aeee88.js",
     "static/js/787.55dbeaa3.chunk.js": "/suitemates/static/js/787.55dbeaa3.chunk.js",
     "static/media/shopping.jpg": "/suitemates/static/media/shopping.04f9baae7885d98b5bb3.jpg",
     "static/media/coverimg.png": "/suitemates/static/media/coverimg.5dc043b2f81261f99f78.png",
@@ -18,11 +18,16 @@
     "static/media/requestview.png": "/suitemates/static/media/requestview.37554a2827ac0a12c809.png",
     "static/media/nextweek.png": "/suitemates/static/media/nextweek.215cb735fad3ea2aeab2.png",
     "static/media/neweventpermanentview.png": "/suitemates/static/media/neweventpermanentview.ef95a5b232b2653a00c4.png",
-    "static/media/requestcreationcomponents.png": "/suitemates/static/media/requestcreationcomponents.14a980e78d55ac5b3695.png",
+    "static/media/roommate-nudged.png": "/suitemates/static/media/roommate-nudged.eb2dfa01ad4e5ca934fb.png",
+    "static/media/nudge-roommate.png": "/suitemates/static/media/nudge-roommate.f7203990994d802cf2fa.png",
     "static/media/emptyweekview.png": "/suitemates/static/media/emptyweekview.ddb0fec7271a5521b8b2.png",
+    "static/media/requestcreationcomponents.png": "/suitemates/static/media/requestcreationcomponents.6adfaae67b598231b196.png",
     "static/media/remove-roommate-modal.png": "/suitemates/static/media/remove-roommate-modal.b00e8b4d6704266990d1.png",
     "static/media/roommate-removed.png": "/suitemates/static/media/roommate-removed.e16263fb0d988057b254.png",
     "static/media/BathroomComplete.png": "/suitemates/static/media/BathroomComplete.54bc6fc53aedfb89df2a.png",
+    "static/media/old-rent.png": "/suitemates/static/media/old-rent.8e8a9e4bec28390514c4.png",
+    "static/media/new-rent.png": "/suitemates/static/media/new-rent.e8fe49009bc143702fac.png",
+    "static/media/rent-paid.png": "/suitemates/static/media/rent-paid.20287ce6f33dfca4dbd7.png",
     "static/media/BathroomIncomplete.png": "/suitemates/static/media/BathroomIncomplete.5be4263cca42caf11b1c.png",
     "static/media/TableIncomplete.png": "/suitemates/static/media/TableIncomplete.451db4b44b19d1525720.png",
     "static/media/LoungeIncomplete.png": "/suitemates/static/media/LoungeIncomplete.6627be0f5c1376c172eb.png",
@@ -33,22 +38,25 @@
     "static/media/remove_roommates.png": "/suitemates/static/media/remove_roommates.5ed83e9b7a19a2c84351.png",
     "static/media/nextweekview.png": "/suitemates/static/media/nextweekview.2b613749d03d8da05ed3.png",
     "static/media/Cal1025.png": "/suitemates/static/media/Cal1025.f71175f6ae37a3ba5851.png",
+    "static/media/nudge-button.png": "/suitemates/static/media/nudge-button.782a0162eaa0220d7d2f.png",
     "static/media/invite_code.png": "/suitemates/static/media/invite_code.637f3457d463979819c8.png",
     "static/media/create_rule.png": "/suitemates/static/media/create_rule.24c0fc40735cf78554df.png",
     "static/media/ChoreBigCalendar.png": "/suitemates/static/media/ChoreBigCalendar.fb84c8e58761330a11f9.png",
     "static/media/EmptyBigCal.png": "/suitemates/static/media/EmptyBigCal.cc53f26ee8bb98735128.png",
     "static/media/profileicon.png": "/suitemates/static/media/profileicon.7f94efe7bdbb156313b0.png",
+    "static/media/update-rent-button.png": "/suitemates/static/media/update-rent-button.f9c20e31c68fc54c785c.png",
     "static/media/invite-code-modal.png": "/suitemates/static/media/invite-code-modal.92747c30811ec86f227d.png",
     "static/media/quiethour.png": "/suitemates/static/media/quiethour.48c3602d7fe36c771b82.png",
     "static/media/invitecode.png": "/suitemates/static/media/invitecode.d9e0370fd09aaf6d2019.png",
     "static/media/party.png": "/suitemates/static/media/party.802ed651ea3a62a94311.png",
+    "static/media/update-rent-modal.png": "/suitemates/static/media/update-rent-modal.2efe07cd4f8d70baf85f.png",
     "index.html": "/suitemates/index.html",
-    "main.861c21c4.css.map": "/suitemates/static/css/main.861c21c4.css.map",
-    "main.7dbae20c.js.map": "/suitemates/static/js/main.7dbae20c.js.map",
+    "main.e00da5b9.css.map": "/suitemates/static/css/main.e00da5b9.css.map",
+    "main.59aeee88.js.map": "/suitemates/static/js/main.59aeee88.js.map",
     "787.55dbeaa3.chunk.js.map": "/suitemates/static/js/787.55dbeaa3.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.861c21c4.css",
-    "static/js/main.7dbae20c.js"
+    "static/css/main.e00da5b9.css",
+    "static/js/main.59aeee88.js"
   ]
 }
