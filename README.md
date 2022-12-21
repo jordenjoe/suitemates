@@ -1,4 +1,3 @@
-How to run the program:
 # Run Live Version
 https://jordenjoe.github.io/suitemates/
 
