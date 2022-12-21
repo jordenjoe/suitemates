@@ -3,6 +3,7 @@ How to run the program:
 From directory:
 
 npm install
+
 npm start
 
 Third party code to recognize:
