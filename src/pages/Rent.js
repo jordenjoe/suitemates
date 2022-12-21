@@ -1,5 +1,4 @@
 import React, { useState } from "react";
-import { Link } from "react-router-dom";
 import "../assets/css/Rent.css";
 //Components
 import Navbar from "../components/NavbarRentBlue";

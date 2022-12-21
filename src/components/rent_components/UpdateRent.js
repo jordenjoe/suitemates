@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../assets/css/Rent.css";
 import updateRentModal from "../../assets/images/rent/update-rent-modal.png";
 

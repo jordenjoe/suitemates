@@ -1,5 +1,4 @@
 import React from "react";
-import { Link } from "react-router-dom";
 import "../../assets/css/Rent.css";
 import nudgeRoommateModal from "../../assets/images/rent/nudge-roommate.png";
 import roommateNudged from "../../assets/images/rent/roommate-nudged.png";
