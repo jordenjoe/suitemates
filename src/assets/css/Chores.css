@@ -1,213 +1,224 @@
-@import url('https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Asap:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
-    background-color: rgb(212, 222, 232);
+  background-color: rgb(212, 222, 232);
 }
 
 .App {
-    text-align: center;
-    background-color: #fff;
-    width: 390px;
-    height: 850px;
-    margin: 10px;
-    border-radius: 15px;
-    box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.2);
-    font-family: 'Asap', sans-serif;
-    overflow: hidden;
-    position: relative
+  text-align: center;
+  background-color: #fff;
+  width: 390px;
+  height: 850px;
+  margin: 10px;
+  border-radius: 15px;
+  box-shadow: 3px 5px 5px 5px rgba(0, 0, 0, 0.2);
+  font-family: "Asap", sans-serif;
+  overflow: hidden;
+  position: relative;
 }
 
-.App>h1 {
-    text-align: center;
-    font-size: xx-large;
-    margin-left: 10%;
-    margin-right: 10%;
+.App > h1 {
+  text-align: center;
+  font-size: xx-large;
+  margin-left: 10%;
+  margin-right: 10%;
 }
 
 .Header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 9%;
-    margin-right: 10%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 9%;
+  margin-right: 10%;
 }
 
 .Back_Icon {
-    margin-right: 10%;
-    padding-right: 80px;
+  margin-right: 10%;
+  padding-right: 80px;
 }
 
 .Add_Icon {
-    margin-left: 10%;
-    padding-left: 74px;
-    padding-right: 10%;
+  margin-left: 10%;
+  padding-left: 74px;
+  padding-right: 10%;
 }
 
 .HeaderFont {
-    font-size: x-large;
-    display: inline-block;
-    font-weight: 393;
-    text-align: center;
+  font-size: x-large;
+  display: inline-block;
+  font-weight: 393;
+  text-align: center;
 }
 
 .Single-Icon-Header {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    margin-left: 10%;
-    margin-right: 5%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 10%;
+  margin-right: 5%;
 }
 
 .Single-Icon-Header-Font {
-    font-size: x-large;
-    font-weight: 400;
-    color: #48C3C0;
-    display: inline-block;
-    text-align: left;
-    padding-left: 6px;
+  font-size: x-large;
+  font-weight: 400;
+  color: #48c3c0;
+  display: inline-block;
+  text-align: left;
+  padding-left: 6px;
 }
 
 .Close_Icon {
-    padding-left: 136px;
+  padding-left: 136px;
 }
 
-.App>h3 {
-    text-align: left;
-    font-size: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    font-style: italic;
-    font-weight: 393;
-    height: 15px;
+.App > h3 {
+  text-align: left;
+  font-size: 20px;
+  margin-left: 10%;
+  margin-right: 10%;
+  font-style: italic;
+  font-weight: 393;
+  height: 15px;
 }
 
 .Body {
-    margin: 10%;
+  margin: 10%;
 }
 
 .p-Chores {
-    font-size: medium;
-    text-align: left;
-    color: #7D848D;
-    margin-left: 45px;
-    margin-right: 50px;
+  font-size: medium;
+  text-align: left;
+  color: #7d848d;
+  margin-left: 45px;
+  margin-right: 50px;
 }
 
 .Turquoise-Button-Chores {
-    background-color: #48C3C0;
-    border: none;
-    color: white;
-    padding: 10px 32px;
-    text-align: center;
-    display: inline-block;
-    font-size: 16px;
-    width: 340px;
-    border-radius: 16px;
-    font-style: italic;
-    margin-top: 20px;
-
+  background-color: #48c3c0;
+  border: none;
+  color: white;
+  padding: 10px 32px;
+  text-align: center;
+  display: inline-block;
+  font-size: 16px;
+  width: 340px;
+  border-radius: 16px;
+  font-style: italic;
+  margin-top: 20px;
 }
 
 .Gray-Input-Chores {
-    background-color: #f0f0f0;
-    border: none;
-    color: #282c3b;
-    padding: 15px 32px;
-    text-align: left;
-    display: inline-block;
-    font-size: 15px;
-    width: 270px;
-    border-radius: 15px;
-    font-style: italic;
+  background-color: #f0f0f0;
+  border: none;
+  color: #282c3b;
+  padding: 15px 32px;
+  text-align: left;
+  display: inline-block;
+  font-size: 15px;
+  width: 270px;
+  border-radius: 15px;
+  font-style: italic;
 }
-
 
 .Turquoise-Button-Text-Chores {
-    text-decoration: none !important;
-    text-decoration-color: white;
-    color: white;
-    font-size: large;
-    font-style: italic;
+  text-decoration: none !important;
+  text-decoration-color: white;
+  color: white;
+  font-size: large;
+  font-style: italic;
 }
 
-.NavPadding-Lounge{
-    padding-top:18px;
+.NavPadding-Lounge {
+  padding-top: 24px;
 }
 
-.Calendar-Padding{
-    padding-bottom:30px;
+.Calendar-Padding {
+  padding-bottom: 30px;
 }
 
-.NavPadding-New{
-    padding-top:218px;
+.NavPadding-New {
+  padding-top: 228px;
 }
 
 a {
-    text-decoration: none;
-    color: #48C3C0;
+  text-decoration: none;
+  color: #48c3c0;
 }
 
 @media (prefers-reduced-motion: no-preference) {
-    .App-logo {
-        animation: App-logo-spin infinite 20s linear;
-    }
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
 }
 
 @keyframes App-logo-spin {
-    from {
-        transform: rotate(0deg);
-    }
+  from {
+    transform: rotate(0deg);
+  }
 
-    to {
-        transform: rotate(360deg);
-    }
+  to {
+    transform: rotate(360deg);
+  }
 }
 
 .PopUp-Chores {
-    position: fixed;
-    left: 15%;
-    top: 30%;
-    width: 270px;
-    height: 275px;
-    border: 0px;
-    border-radius: 15px;
-    box-shadow: 1px 1px 10px 10px #F7F7F9;
-    background-color: #ffff;
-    justify-content: center;
-    align-items: center;
-    padding-right: 40px;
-    padding-left: 5px;
-    margin: -162px;
-    margin-top: 20px;
+  position: fixed;
+  left: 26.5%;
+  top: 30%;
+  width: 270px;
+  height: 275px;
+  border: 0px;
+  border-radius: 15px;
+  background-color: #ffff;
+  justify-content: center;
+  align-items: center;
+  padding-right: 40px;
+  padding-left: 5px;
+  margin: -162px;
+  margin-top: 20px;
 }
 
 .PopUpContent-Chores {
-    width: 100%;
-    align-items: center;
-    margin: 20px;
+  width: 100%;
+  align-items: center;
+  margin: 20px;
 }
 
-.PopUpContent-Chores>h1 {
-    text-align: center;
-    font-size: x-large;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #282c3b;
-
+.PopUpContent-Chores > h1 {
+  text-align: center;
+  font-size: x-large;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #282c3b;
 }
 
-.PopUpContent-Chores>p {
-    text-align: center;
-    font-size: medium;
-    margin-left: 10%;
-    margin-right: 10%;
-    color: #8D9093;
+.PopUpContent-Chores > p {
+  text-align: center;
+  font-size: medium;
+  margin-left: 10%;
+  margin-right: 10%;
+  color: #8d9093;
 }
 
 .PopUpIcons {
+  float: center;
+  align-items: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
 
-    float: center;
-    align-items: center;
-    padding-top: 10px;
-    padding-bottom: 10px;
+.chores-calendar {
+  padding: 0;
+  margin: 0;
+}
+
+.chores-calendar-button {
+  padding: 0;
+  margin: 0;
+  background-color: rgba(0, 0, 0, 0);
+  border: none;
+}
+
+.NavPadding-Assign {
+  padding-top: 66px;
 }

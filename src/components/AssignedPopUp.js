@@ -3,11 +3,8 @@ import "../assets/css/Chores.css";
 import jess from "../assets/images/chores/Jess.png";
 import { Link } from "react-router-dom";
 import okbutton from "../assets/images/chores/okbutton.png";
-import AssignButton from "../assets/images/chores/AssignButton.png";
 
-const AssignedPopUp = (props) => {
-  const { onDismiss } = props;
-
+const AssignedPopUp = () => {
   return (
     <div className="PopUp-Chores">
       <div className="PopUpContent-Chores">
